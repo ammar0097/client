@@ -1,16 +1,29 @@
 .nav-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: black;
-    
-   }
-.nav-item a {
-    color: #fff;
-    
-   }
-li {
-    list-style: none;
-   }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
 
-   
+.nav-item a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  
+  background: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
