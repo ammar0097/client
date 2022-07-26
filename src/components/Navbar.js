@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <NavbarBootstrap bg="light" variant="light">
-        <NavbarBootstrap.Brand href="#home">Navbar</NavbarBootstrap.Brand>
+        <NavbarBootstrap.Brand href="#home">Ammar</NavbarBootstrap.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">About me</Nav.Link>

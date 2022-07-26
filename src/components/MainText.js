@@ -9,7 +9,7 @@ const MainText = () => {
         Hi, I'm <span className="name">Ammar</span>
         <span className="wave">🤚</span>
       </h1>
-      <h2 className="Im">I'm a Full Stack Developer.</h2>
+      <h2 className="Im">I'm a Full Stack Javascript Developer.</h2>
       <ul className="miniBio">
         <li>
           <h5>☕ fueled by coffee</h5>
