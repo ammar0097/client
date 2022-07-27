@@ -7,10 +7,10 @@ const Navbar = () => {
     <>
       <NavbarBootstrap bg="light" variant="light">
         <NavbarBootstrap.Brand href="#home">Ammar</NavbarBootstrap.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
+        <Nav className="ms-auto">
+          <Nav.Link className="home " href="#home">Home</Nav.Link>
           <Nav.Link href="#features">About me</Nav.Link>
-          <Nav.Link href="#pricing">Portfolio</Nav.Link>
+          <Nav.Link  href="#pricing">Portfolio</Nav.Link>
         </Nav>
       </NavbarBootstrap>
     </>
