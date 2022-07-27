@@ -8,7 +8,7 @@ const Image = () => {
       <Img
         src={image}
         style={{ height: 400, width: 450 }}
-        className="fluid mx-auto d-none d-md-block"
+        className="fluid"
         alt="Italian Trulli"
       />
     </div>

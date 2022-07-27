@@ -10,11 +10,11 @@ const Home = () => {
   return (
     <div className="Home ">
       <Row>
-        <Col>
-          <MainText xs={12}  />
+        <Col xsm={12} lg={6}>
+          <MainText />
         </Col>
-        <Col>
-          <Row xs= {0} md="auto">
+        <Col xsm={0} lg={6}>
+          <Row className={"d-none d-lg-block"}>
             <Image />
           </Row>
         </Col>
