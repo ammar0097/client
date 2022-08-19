@@ -1,0 +1,10 @@
+.Projects {
+    margin-top: 80px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import NavbarBootstrap from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import ButtonCv from "./ButtonCv";
 const Navbar = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Navbar = () => {
           <Nav.Link href="#features">About me</Nav.Link>
           <Nav.Link  href="#pricing">Portfolio</Nav.Link>
         </Nav>
+
       </NavbarBootstrap>
     </>
   );

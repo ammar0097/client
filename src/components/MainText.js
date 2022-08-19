@@ -5,7 +5,7 @@ import "./MainText.css";
 const MainText = () => {
   return (
     <div className="MainText ">
-      <h1 className="Hi">
+      <h1 className="Hi ">
         Hi, I'm <span className="name">Ammar</span>
         <span className="wave">🤚</span>
       </h1>
